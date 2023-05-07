@@ -1,0 +1,160 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Comments</title>
+    <link rel="stylesheet" type="text/css" href="css/temp.css">
+    <link rel="stylesheet" type="text/css" href="css/comments.css">
+    <script src="script/temp.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+    <meta charset="utf-8" />
+
+
+
+</head>
+
+<body class="body">
+    <header id="navbar">
+        <a href="#" class="logo"><img src="images/logo1.png" alt="Logo"  height="60"></a>
+        <div class="navigation">
+            <div class="navigation-items">
+                <a href="../index.html">Home</a>
+                <a href="comments.html">Comments</a>
+                <a href="shop.html">Marketplace</a>
+                <a href="quiz.html">Quiz</a>
+                <a href="sitemap.html">Site Map</a>
+                <a href="aboutus.html">About us</a>
+		    <a href="gallery.html">Gallery</a>
+            </div>
+        </div>
+    </header>
+
+    <img class="image" src="images/comment.jpg" alt="Sample image of a tourist">
+    <h1 data-text="comments" id="text"> Comments</h1>
+
+
+
+    <form class="big-div" >
+        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+        <div class="div-area">
+            <label for="fName">Enter your First name : </label><br>
+            <input type="text" id="fname" placeholder="First name ">
+        </div><br>
+    
+
+        <div class="div-area">
+            <label for="lName">Enter your Last name : </label><br>
+            <input type="text" id="lname" placeholder="Last name" >
+        </div><br>
+
+        <div class="div-area">
+            <p> Please be kind enough to give us a rating out of 10 stars!! </p>
+            <br>
+            <div class="rating-container" id="rating">
+              <label for="rating-1"> &#9733;</label>
+              <input type="radio" name="rating" id="rating-1" value="1" required>
+              <label for="rating-2"> &#9733;</label>
+              <input type="radio" name="rating" id="rating-2" value="2" required>
+              <label for="rating-3">&#9733</label>
+              <input type="radio" name="rating" id="rating-3" value="3" required>
+              <label for="rating-4">&#9733</label>
+              <input type="radio" name="rating" id="rating-4" value="4" required>
+              <label for="rating-5">&#9733</label>
+              <input type="radio" name="rating" id="rating-5" value="5" required>
+              <label for="rating-6">&#9733</label>
+              <input type="radio" name="rating" id="rating-6" value="6" required>
+              <label for="rating-7">&#9733</label>
+              <input type="radio" name="rating" id="rating-7" value="7" required>
+              <label for="rating-8">&#9733</label>
+              <input type="radio" name="rating" id="rating-8" value="8" required>
+              <label for="rating-9">&#9733</label>
+              <input type="radio" name="rating" id="rating-9" value="9" required>
+              <label for="rating-10">&#9733</label>
+              <input type="radio" name="rating" id="rating-10" value="10" required>
+            </div>
+            <span id="rating-warning" style="display: none; background-color: lightcoral;"></span>
+            <br>
+          </div>
+          <br><br>
+
+        <div class="div-area">
+            <label for="Reason" >  Please could you tell us your reason you giving this rating? </label><br><br>
+            <textarea id= "reason" cols="80" rows="10" placeholder="Reason for your rating" style ="padding-left: 20px ;"></textarea>
+        </div><br>
+        
+        <div class="div-area">
+            <label for="firstTask">How did you want to complete this task today? (optional) :</label><br>
+            <select id="firstTask" name="firstTask">
+              <option value="Phone">Phone</option>
+              <option value="Website">Website</option>
+              <option value="Webchat">Webchat</option>
+              <option value="Social Media">Social Media</option>
+              <option value="Email">Email</option>
+            </select><br>
+        </div> <br>
+
+        <div class="div-area">
+            <label for="secondTask">If yoy had to complete this task again, How would you prefer (optional) :</label><br>
+            <select id="secondTask" name="secondTask">
+                <default value="default"></default>
+                <option value="Phone">Phone</option>
+                <option value="Website">Website</option>
+                <option value="Webchat">Webchat</option>
+                <option value="Social Media">Social Media</option>
+                <option value="Email">Email</option>
+            </select>
+        </div>
+
+        <br>
+        
+        <button type ="submit" class = "button" onclick="validate_Comment()">Submit</button>
+        
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        <div class="container-1">
+            <h3>USEFUL LINKS</h3>
+            <a href="comments.html">COMMENTS</a>
+            <a href="shop.html">SHOP</a>
+            <a href="quiz.html">QUIZ</a>
+            <a href="sitemap.html">SITEMAP</a>
+		<a href="gallery.html">GALLERY</a>
+        </div>
+        <div class="container-2">
+            <h3>QUICK MESSAGE TO US</h3>
+            <form>
+                <input id="message" type="text" placeholder="Enter Message">
+                <br>
+                <button onclick="sendEmail()">SUBMIT</button>
+            </form>
+        </div>
+        <div class="container-3">
+            <h3>CONTACT US</h3>
+            <a href="mailto:visal.20221302@iit.ac.lk">Visal Vitharana</a>
+            <a href="mailto:didula.20221256@iit.ac.lk">Didula Senevirathne</a>
+            <a href="mailto:piyumdi.20221317@iit.ac.lk">Piyumdi Liyange</a>
+            <a href="mailto:disadi.20221545@iit.ac.lk">Disadi Arachchi</a>
+        </div>
+    </footer>
+</body>
+</html>

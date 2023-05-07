@@ -1,0 +1,52 @@
+.body{
+    background-color: #ebecf0;
+    background-image: url("../images/shop/bggree.png");
+    padding:100px;
+}	
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-center{
+    justify-content: center;
+    align-items: center;
+}
+
+.justify-center{
+    text-align: center;
+}
+
+.choice-container{
+    display: flex;
+    margin-bottom: 0.5rem;
+    width:100%;
+    font-size:20px;
+    border:1px solid #13610B;
+    border-radius:8px;
+    padding:5px;
+    background-color: white;
+}
+.choice-prefix{
+    border:1px solid black;
+    border-radius:8px;
+    padding: 4px 6px;
+    background-color: #5a8f54;
+}
+
+.choice-container:hover{
+    cursor:pointer;
+    box-shadow:0.1rem 0.2rem 0.1rem;
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+}
+
+#game{
+    border:1px solid #13610B;
+    border-radius:8px;
+    padding:5px;
+    margin-right: 300px;
+    margin-left: 300px;
+    font-size:20px;
+}

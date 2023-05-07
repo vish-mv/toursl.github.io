@@ -1,0 +1,153 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Quiz</title>
+    <link rel="stylesheet"  href="css/temp.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+    <meta charset="utf-8" />
+
+    <link rel = "stylesheet" href = "css/style.css"/>
+
+</head>
+<body>
+	
+	
+	
+    <header id="navbar">
+        <a href="#" class="logo"><img src="images/logo1.png" alt="Logo"  height="60"></a>
+        <div class="navigation">
+            <div class="navigation-items">
+                <a href="../index.html">Home</a>
+                <a href="comments.html">Comments</a>
+                <a href="shop.html">Marketplace</a>
+                <a href="quiz.html">Quiz</a>
+                <a href="sitemap.html">Site Map</a>
+                <a href="aboutus.html">About us</a>
+		    <a href="gallery.html">Gallery</a>
+            </div>
+        </div>
+    </header>
+   
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <!-- start Quiz button -->
+   <br>
+   <div class="start_btn"><button>Start Quiz</button></div>
+   <br>
+   <!-- Info Box -->
+   <div class="info_box">
+    <br>
+       <div class="info-title"><span>Some Rules of this Quiz</span></div>
+       <div class="info-list">
+           <div class="info">1. You will have only <span>15 seconds</span> per each question.</div>
+           <div class="info">2. Once you select your answer, it can't be undone.</div>
+           <div class="info">3. You can't select any option once time goes off.</div>
+           <div class="info">4. You can't exit from the Quiz while you're playing.</div>
+           <div class="info">5. You'll get points on the basis of your correct answers.</div>
+       </div>
+       <div class="buttons">
+           <button class="quit">Exit Quiz</button>
+           <button class="restart">Continue</button>
+       </div>
+       <br>
+   </div>
+   <!-- Quiz Box -->
+   <div class="quiz_box">
+    <br>
+       <div class="header">
+           <div class="title">Quiz Application</div>
+           <div class="timer">
+               <div class="time_left_txt">Time Left</div>
+               <div class="timer_sec">15</div>
+           </div>
+           <div class="time_line"></div>
+       </div>
+       <section>
+           <div class="que_text">
+               <!-- Here I've inserted question from JavaScript -->
+           </div>
+           <div class="option_list">
+               <!-- Here I've inserted options from JavaScript -->
+           </div>
+       </section>
+       <!-- footer of Quiz Box -->
+       <div class="footer">
+           <div class="total_que">
+               <!-- Here I've inserted Question Count Number from JavaScript -->
+           </div>
+           <button class="next_btn">Next Que</button>
+       </div>
+       <br>
+   </div>
+ 
+
+   <!-- Result Box -->
+   <div class="result_box">
+    <br>
+       <div class="icon">
+           <i class="fas fa-crown"></i>
+       </div>
+       <div class="complete_text">You've completed the Quiz!</div>
+       <div class="score_text">
+           <!-- Here I've inserted Score Result from JavaScript -->
+       </div>
+       <div class="buttons">
+           <button class="restart">Replay Quiz</button>
+           <button class="quit">Quit Quiz</button>
+       </div>
+       <br>
+   </div>
+   
+	
+	
+    <footer>
+        <div class="container-1">
+            <h3>USEFUL LINKS</h3>
+            <a href="comments.html">COMMENTS</a>
+            <a href="shop.html">SHOP</a>
+            <a href="quiz.html">QUIZ</a>
+            <a href="sitemap.html">SITEMAP</a>
+		<a href="gallery.html">GALLERY</a>
+        </div>
+        <div class="container-2">
+            <h3>QUICK MESSAGE TO US</h3>
+            <form>
+                <input id="message" type="text" placeholder="Enter Message">
+                <br>
+                <button onclick="sendEmail()">SUBMIT</button>
+                <br>
+                <br>
+                
+                <p id="edit"><button id="editbutton"><a href="pageeditor_pi.html"> page editor </a></button></p>
+            </form>
+        </div>
+        <div class="container-3">
+            <h3>CONTACT US</h3>
+            <a href="mailto:visal.20221302@iit.ac.lk">Visal Vitharana</a>
+            <a href="mailto:didula.20221256@iit.ac.lk">Didula Senevirathne</a>
+            <a href="mailto:piyumdi.20221317@iit.ac.lk">Piyumdi Liyange</a>
+            <a href="mailto:disadi.20221545@iit.ac.lk">Disadi Arachchi</a>
+        </div>
+    </footer>
+	
+    <script src = "script/quiz.js"></script>
+    <script src = "script/questions.js"></script>
+    
+</body>
+</html>

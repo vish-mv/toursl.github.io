@@ -1,0 +1,42 @@
+#topic{
+    color:black;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 8%;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #EF97C6;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+body{
+    background-position: center;
+    background-size: cover;
+}
+
+header .navigation .navigation-items a[href="galllery.html"] {
+    color: #01fe87;
+}
+#bgima{
+    top: 0;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -10;
+    opacity: 0.4;
+    size: cover;
+    margin-top: 0%;
+    
+}
+.content{
+    background-color: #EF97C6;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.text{
+    text-align: center;
+}
+.details{
+    text-align: center;
+    margin-bottom: 2%;
+}

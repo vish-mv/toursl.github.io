@@ -1,0 +1,48 @@
+
+.heddings {
+    text-align: center;
+    margin: 0 auto; 
+    width: 700px;
+    border: 3px solid black;
+    border-radius: 50px;
+    background-color: rgba(26, 119, 200, 0.801);
+  }
+
+h1{
+    background-color: rgb(47, 143, 32);
+    font-size: 40px;
+    color:#fff;
+    width: 700px;
+    text-align: center ;
+}
+
+body{
+    background-image: url("bg3.jpg");
+    background-size: cover;
+}
+
+
+.text{
+    text-align: center;
+    border:3px solid black;
+    margin-right: 5%;
+    border-radius:50px;
+    background-color: rgba(176, 213, 246, 0.5);
+    transition: transform 0.8s ease;
+}
+
+.text:hover{
+    transform: scale(120%);
+    background-color:rgb(47, 58, 49) ;
+    color:#fff;
+}
+
+.big-div {
+    display: flex;
+    justify-content: center; 
+    text-align: center;
+  }
+
+li{
+    text-align: left;
+}
