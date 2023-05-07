@@ -1,0 +1,66 @@
+body{
+    text-align: center;
+    background-image: url('background\ images/dd.png');
+    background-size:cover;
+    background-color: rgba(225,225,225, 0.8);
+    background-repeat: no-repeat;
+    
+
+}
+
+.main{
+    text-align: center;
+    margin: 150px;
+    
+}
+
+.quiz{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(71, 125, 75);
+    color: white;
+}
+.aboutus{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(71, 125, 75);
+    color: white;
+}
+.contentpage{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(71, 125, 75);
+    color: white;
+}
+
+.text{
+    text-align: center;
+    color: white;
+
+}
+
+#topic{
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(68, 128, 72);
+    color: white;
+}
+
+.details{
+    margin: 30px;
+}
+
+.quiz:hover,
+.aboutus:hover,
+.contentpage:hover{
+    background-color: rgb(101, 176, 101);
+    color: black;
+    box-shadow: 0 5px 15px #27532b;
+}
+
+#topic:hover{
+    background-color: rgb(101, 176, 101);
+    color: black;
+    box-shadow: 0 5px 15px #27532b;
+}
