@@ -1,0 +1,5 @@
+defaults:
+  - scope:
+      path: ""
+    values:
+      index: loading_page.html
