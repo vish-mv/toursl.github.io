@@ -1,0 +1,54 @@
+
+header .navigation .navigation-items a[href="index.html"] {
+    color: #FFD700;
+}
+.additional1-block{
+    background-color: rgba(57, 56, 51, 0.5);
+    color: aliceblue;
+    display:flex;
+    width: 70%;
+    align-items: center;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 8px solid rgb(59, 148, 36);
+    border-radius: 10px;
+    
+    
+}
+
+.image{
+    width:400px;
+    height: auto;
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    background-color: rgb(41, 94, 49);
+    color: aliceblue;
+    width: 50%;
+}
+
+body{
+    background-image: url(bg3.jpg);
+    background-size: cover;
+    background-position:center;
+}
+
+
+.button {
+    background-color: #01fe87;
+    border: none;
+    color: #464242;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    display : block;
+    margin: 0 auto;
+    border-radius: 10px ;
+}
