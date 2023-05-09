@@ -1,5 +1,3 @@
-document.getElementById('fontsize').addEventListener('change' , changeColorF );
-
     function changeFontSize(change){
 	var texts = ["text1", "text2", "text3"];
 	var i;
